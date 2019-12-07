@@ -152,7 +152,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   carPrefab: {fileID: 6982926107018649128, guid: 0e3ebe3db0af8dc4bbdfa5d1c7724827,
     type: 3}
-  CityStreets: {fileID: 0}
+  roadPrefab:
+  - {fileID: 7353136559187088964, guid: 00e6d0f4514da8b41bf2b28e2ae4bd02, type: 3}
+  - {fileID: 9135919853090173453, guid: 826c822dee45595428d09237ec318fd6, type: 3}
+  - {fileID: 696878163622476179, guid: 7b2d8bc06a90e934da6c4c7a0b8c592e, type: 3}
+  - {fileID: 7237133717133215835, guid: 9347ac6a33abbac47a2264f64485a3a4, type: 3}
+  - {fileID: 2315351954297296642, guid: 96a3c75b0cec9f5428d14319f0f766da, type: 3}
+  - {fileID: 2618619300428301637, guid: 4e310d9d7e2b45a45af653eab351ee5e, type: 3}
+  - {fileID: 2253429544739323059, guid: f62ed7c6393d09c43a9556a124d2671a, type: 3}
+  - {fileID: 7953368664587143493, guid: 21241bd51806cce4fa4e99a79b3f646d, type: 3}
+  - {fileID: 9108141027699217707, guid: 35d95f6b2fb6e384a8fea2c524cfe1e6, type: 3}
+  - {fileID: 3856061868830207929, guid: 8e2bcbdf2056f48448a572931048e10b, type: 3}
 --- !u!4 &334342125
 Transform:
   m_ObjectHideFlags: 0
@@ -161,7 +171,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 334342123}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.988715, y: 1.5068276, z: 1.9500642}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
