@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class CityGenerator : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -11,7 +11,7 @@ public class CityGenerator : MonoBehaviour
    
     void Start()
     {
-        Instantiate(carPrefab, Vector3.zero, Quaternion.Euler(-90f, 0f, 0f));
+        Instantiate(carPrefab, Vector3.zero, Quaternion.Euler(-90f, -90f, 0f));
         CreateCity();
 
     }
@@ -30,6 +30,9 @@ public class CityGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyUp(KeyCode.Space))
+        {
+            SceneManager.LoadScene("Creator", LoadSceneMode.Single);
+        }
     }
 }

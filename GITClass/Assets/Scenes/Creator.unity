@@ -158,13 +158,14 @@ MonoBehaviour:
   - {fileID: 7237133717133215835, guid: 9347ac6a33abbac47a2264f64485a3a4, type: 3}
   - {fileID: 2315351954297296642, guid: 96a3c75b0cec9f5428d14319f0f766da, type: 3}
   - {fileID: 2618619300428301637, guid: 4e310d9d7e2b45a45af653eab351ee5e, type: 3}
-  - {fileID: 5696766546945656288, guid: 606bef1ea651ff84c94948f4ceed9359, type: 3}
+  - {fileID: 98270427900139514, guid: 606bef1ea651ff84c94948f4ceed9359, type: 3}
   - {fileID: 7953368664587143493, guid: 21241bd51806cce4fa4e99a79b3f646d, type: 3}
   - {fileID: 9108141027699217707, guid: 35d95f6b2fb6e384a8fea2c524cfe1e6, type: 3}
   - {fileID: 5769962559463963785, guid: 9cbdbbd732d71634dbfa79d2609b0f0f, type: 3}
   - {fileID: 3856061868830207929, guid: 8e2bcbdf2056f48448a572931048e10b, type: 3}
   - {fileID: 2253429544739323059, guid: f62ed7c6393d09c43a9556a124d2671a, type: 3}
   - {fileID: 341796259795816928, guid: 76a0d2beac139d744a5bef017b218716, type: 3}
+  - {fileID: 9135919853090173453, guid: 826c822dee45595428d09237ec318fd6, type: 3}
 --- !u!4 &634833629
 Transform:
   m_ObjectHideFlags: 0
