@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &-6398012815472661573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 5696766546247175572}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6385369061816941696}
+  m_Layer: 0
+  m_Name: GiganteBailarin (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6385369061816941696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 5696766546247175572}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: -6398012815472661573}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5696766546247046992}
+  m_Father: {fileID: 5696766546945656291}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5696766546945656288
 GameObject:
   m_ObjectHideFlags: 0
@@ -24,7 +55,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5696766546945656288}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.649887, y: -2.1770134, z: 4.966772}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5696766546120646396}
@@ -41,8 +72,39 @@ Transform:
   - {fileID: 5696766545899867152}
   - {fileID: 5696766546017796910}
   - {fileID: 5696766547058513038}
-  - {fileID: 5696766546247046992}
+  - {fileID: 6385369061816941696}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6546923916990955624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 5696766546247175572}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5696766546247046992}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5696766546247046992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400068, guid: e3f5704663e165a46b19b37de8a68a8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5696766546247175572}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6546923916990955624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6385369061816941696}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5696766545511777135
@@ -549,15 +611,9 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: e3f5704663e165a46b19b37de8a68a8b, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: e967850f85c6ccb45b8753c93e5e368e, type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3f5704663e165a46b19b37de8a68a8b, type: 3}
---- !u!4 &5696766546247046992 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400068, guid: e3f5704663e165a46b19b37de8a68a8b,
-    type: 3}
-  m_PrefabInstance: {fileID: 5696766546247175572}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5696766547004247387
 PrefabInstance:
   m_ObjectHideFlags: 0
